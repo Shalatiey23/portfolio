@@ -3,22 +3,22 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 export const socials = [
     // {
     //     id: 1,
-    //     url: "https://twitter.com/thabiso_dev",
+    //     url: "https://twitter.com/shalatiey23",
     //     icon: FaTwitter
     // },
     {
         id: 2,
-        url: "https://www.instagram.com/thabiso.timzo.dev/",
+        url: "https://www.instagram.com/shalatiey23/",
         icon: FaInstagram
     },
     {
         id: 3,
-        url: "https://github.com/Thabiso-007",
+        url: "https://github.com/Shalatiey23",
         icon: FaGithub
     },
     {
         id: 4,
-        url: "https://www.linkedin.com/in/thabiso-hlatshwayo-8a4079198/",
+        url: "https://www.linkedin.com/in/vutlhari-chauke-17b961271/",
         icon: FaLinkedin
     }
 ]
@@ -51,35 +51,35 @@ export const links = [
     }
 ]
 
-export const projects = [
-    {
-        id: 1,
-        path: "/projects/api/express-api",
-        name: "Express store API"
-    },
-    {
-        id: 2,
-        path: "/projects/web/calculator",
-        name: "Calculator"
-    },
-    // {
-    //     id: 3,
-    //     path: "/projects/fyur",
-    //     name: "Fyur"
-    // },
-    {
-        id: 4,
-        path: "/projects/web/thabiso",
-        name: "Thabiso"
-    },
-    {
-        id: 5,
-        path: "/projects/web/weather-forecast",
-        name: "Weather forecast"
-    },
-    {
-        id: 6,
-        path: "/projects/web/executant",
-        name: "Executant "
-    }
-]
+// export const projects = [
+//     {
+//         id: 1,
+//         path: "/projects/api/express-api",
+//         name: "Express store API"
+//     },
+//     {
+//         id: 2,
+//         path: "/projects/web/calculator",
+//         name: "Calculator"
+//     },
+//     // {
+//     //     id: 3,
+//     //     path: "/projects/fyur",
+//     //     name: "Fyur"
+//     // },
+//     {
+//         id: 4,
+//         path: "/projects/web/thabiso",
+//         name: "Thabiso"
+//     },
+//     {
+//         id: 5,
+//         path: "/projects/web/weather-forecast",
+//         name: "Weather forecast"
+//     },
+//     {
+//         id: 6,
+//         path: "/projects/web/executant",
+//         name: "Executant "
+//     }
+// ]

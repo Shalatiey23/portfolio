@@ -39,7 +39,7 @@ const Footer = () => {
         <div className={'p-5'}>
           <ul>
             <p className={'text-[#fff] font-bold text-3xl pb-6'}>
-              Thabiso <span className={'text-[#D4AF37]'}>Hlatshwayo</span>
+              Vutlhari <span className={'text-[#D4AF37]'}>Chauke</span>
             </p>
             <div className={'flex gap-6 pb-5'}>
               {socials.map(social => (
@@ -64,18 +64,11 @@ const Footer = () => {
           </ul>
         </div>
         <div className={'p-5'}>
-          <ul>
-            <p className={'text-[#D4AF37] font-bold text-2xl pb-4'}>Projects</p>
-            {projects.map(project => (
-              <li key={project.id} className={'text-grey-500 text-md pb-2 text-semibold hover:text-[#D4AF37] cursor-pointer'}>
-                <Link href={project.path}>{project.name}</Link>
-              </li>
-            ))}
-          </ul>
+
         </div>
       </div>
       <div className={'flex flex-col justify-center items-center text-center p-5 bg-[#000000]'}>
-        <p className={'font-bold'}>Copyright © {new Date().getFullYear()} Thabiso Hlatshwayo</p> 
+        <p className={'font-bold'}>Copyright © {new Date().getFullYear()} Vutlhari Chauke</p> 
       </div>
     </>
   )

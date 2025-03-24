@@ -21,75 +21,10 @@ const Projects = () => {
           <p className={'text-xl tracking-widest uppercase text-[#D4AF37] text-center font-bold'}>Projects</p>
           <h2 className={'py-4 text-center'}>What I have built</h2>
           <div className={'grid grid-cols-1 gap-8'}>
-            <div className={'flex flex-wrap justify-between'}>
-              <div className={'w-1/4 p-4'}>
-                <h3 className={'text-center text-lg font-semibold'}>Web</h3>
-                <Link href="/projects/web">
-                  <div className={classNames('block text-center', {
-                    'hover:underline hover:text-[#D4AF37] decoration-[#D4AF37]': !isActive('/projects/web'),
-                    'hover:text-[#D4AF37] underline decoration-[#D4AF37]': isActive('/projects/web')
-                  })}
-                  style={{
-                    textDecorationThickness: isActive('/projects/web') ? '5px' : '3px', 
-                    textUnderlineOffset: isActive('/projects/web') ? '5px' : '3px', 
-                  }}
-                  >
-                    <p className='text-white py-4 text-sm'>View Web Projects</p>
-                  </div>
-                </Link>
-              </div>
-              <div className={'w-1/4 p-4'}>
-                <h3 className={'text-center text-lg font-semibold'}>Mobile</h3>
-                <Link href="/projects/mobile">
-                  <div className={classNames('block text-center', {
-                    'hover:underline hover:text-[#D4AF37] decoration-[#D4AF37]': !isActive('/projects/mobile'),
-                    'text-red-500 underline decoration-white': isActive('/projects/mobile')
-                  })}
-                  style={{
-                    textDecorationThickness: isActive('/projects/web') ? '5px' : '3px', 
-                    textUnderlineOffset: isActive('/projects/web') ? '5px' : '3px', 
-                  }}
-                  >
-                    <p className='text-white py-4 text-sm'>View Mobile Projects</p>
-                  </div>
-                </Link>
-              </div>
-              <div className={'w-1/4 p-4'}>
-                <h3 className={'text-center text-lg font-semibold'}>API</h3>
-                <Link href="/projects/api">
-                  <div className={classNames('block text-center', {
-                    'hover:underline hover:text-[#D4AF37] decoration-[#D4AF37]': !isActive('/projects/api'),
-                    'text-red-500 underline decoration-white': isActive('/projects/api')
-                  })}
-                  style={{
-                    textDecorationThickness: isActive('/projects/web') ? '5px' : '3px', 
-                    textUnderlineOffset: isActive('/projects/web') ? '5px' : '3px', 
-                  }}
-                  >
-                    <p className='text-white py-4 text-sm decoration-white'>View API Projects</p>
-                  </div>
-                </Link>
-              </div>
-              <div className={'w-1/4 p-4'}>
-                <h3 className={'text-center text-lg font-semibold'}>Design</h3>
-                <Link href="/projects/design" className=''>
-                  <div className={classNames('block text-center', {
-                    'hover:underline hover:text-[#D4AF37] decoration-[#D4AF37]': !isActive('/projects/design'),
-                    'text-red-500 underline decoration-white': isActive('/projects/design')
-                  })}
-                  style={{
-                    textDecorationThickness: isActive('/projects/web') ? '5px' : '3px', 
-                    textUnderlineOffset: isActive('/projects/web') ? '5px' : '3px', 
-                  }}
-                  >
-                    <p className='text-white py-4 text-sm decoration-white'>View Design Projects</p>
-                  </div>
-                </Link> 
-              </div>
+
             </div>
           </div>
         </div>
-      </div>
     </>
   )
 }

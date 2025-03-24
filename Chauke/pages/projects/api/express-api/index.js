@@ -5,8 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import { BsFillArrowLeftCircleFill } from 'react-icons/bs'
 
-import mongo from '../../../../public/assets/skills/mongodb.png'
-import express from '../../../../public/assets/skills/express.png'
+
 import node from '../../../../public/assets/skills/node.png'
 
 const Index = () => {

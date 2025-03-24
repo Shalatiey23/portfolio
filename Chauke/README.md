@@ -1,4 +1,4 @@
-# Thabiso Hlatshwayo's Portfolio Website
+# Vutlhari Chauke's Portfolio Website
 
 Welcome to my portfolio website! This platform is designed to showcase my achievements, highlight my skills, and exhibit the various projects I've completed. Below, you'll find instructions on how to set up and run this project.
 
@@ -34,4 +34,4 @@ Edge 79+
 Firefox 67+
 Opera 51+
 Safari 12+
-Feel free to explore my portfolio and get in touch if you have any questions or feedback! Visit [my portfolio](https://thabiso-hlatshwayo-virid.vercel.app/)
+Feel free to explore my portfolio and get in touch if you have any questions or feedback! Visit [my portfolio](https://vutlhari-chauke-virid.vercel.app/)

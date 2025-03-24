@@ -55,26 +55,26 @@ export const data = [
         name: "Github",
         image: github
     },
-    {
-        id: 7,
-        name: "React",
-        image: react
-    },
-    {
-        id: 8,
-        name: "Vue",
-        image: vue
-    },
+    // {
+    //     id: 7,
+    //     name: "React",
+    //     image: react
+    // },
+    // {
+    //     id: 8,
+    //     name: "Vue",
+    //     image: vue
+    // },
     {
         id: 9,
         name: "Python",
         image: python
     },
-    {
-        id: 10,
-        name: "Flask",
-        image: flask
-    },
+    // {
+    //     id: 10,
+    //     name: "Flask",
+    //     image: flask
+    // },
     {
         id: 11,
         name: "Java",
@@ -85,26 +85,26 @@ export const data = [
         name: "Spring Boot",
         image: spring
     },
-    {
-        id: 13,
-        name: "Redux",
-        image: redux
-    },
-    {
-        id: 14,
-        name: "sqlAlchemy",
-        image: sqlalchemy
-    },
+    // {
+    //     id: 13,
+    //     name: "Redux",
+    //     image: redux
+    // },
+    // {
+    //     id: 14,
+    //     name: "sqlAlchemy",
+    //     image: sqlalchemy
+    // },
     {
         id: 15,
         name: "PostgreSQL",
         image: postgresql
     },
-    {
-        id: 16,
-        name: "Mongodb",
-        image: mongo
-    },
+    // {
+    //     id: 16,
+    //     name: "Mongodb",
+    //     image: mongo
+    // },
     {
         id: 17,
         name: "tailwind CSS",
@@ -120,34 +120,34 @@ export const data = [
         name: "Node.js",
         image: node
     },
-    {
-        id: 20,
-        name: "Express.js",
-        image: express
-    },
-    {
-        id: 21,
-        name: "GraphQL",
-        image: graphql
-    },
+    // {
+    //     id: 20,
+    //     name: "Express.js",
+    //     image: express
+    // },
+    // {
+    //     id: 21,
+    //     name: "GraphQL",
+    //     image: graphql
+    // },
     {
         id: 22,
         name: "Next.js",
         image: next
     },
-    {
-        id: 23,
-        name: "Sass",
-        image: sass
-    },
+    // {
+    //     id: 23,
+    //     name: "Sass",
+    //     image: sass
+    // },
     {
         id: 24,
         name: "Angular",
         image: angular
     },
-    {
-        id: 25,
-        name: "C#",
-        image: csharp
-    }
+    // {
+    //     id: 25,
+    //     name: "C#",
+    //     image: csharp
+    // }
 ]

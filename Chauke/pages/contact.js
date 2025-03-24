@@ -10,7 +10,7 @@ import {
     AiOutlineTwitter
 } from 'react-icons/ai'
 
-// import yourImage from '../public/assets/your-photo.jpg'  // Replace with your image
+  
 import { isEmpty, isEmail } from '../utils/validation/validation'
 import Loading from '../components/loading/Loading'
 import { sendEmail } from '../lib/api'
